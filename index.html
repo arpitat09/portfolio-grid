@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio (No Images)</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header>
+  <h1>My Creative Portfolio</h1>
+</header>
+
+<section id="filters">
+  <button data-filter="all">All</button>
+  <button data-filter="web">Web Design</button>
+  <button data-filter="photo">Photography</button>
+</section>
+
+<section class="grid">
+  <div class="card web">
+    <h3>Website Redesign</h3>
+    <p>Web Design</p>
+  </div>
+  <div class="card photo">
+    <h3>Nature Collection</h3>
+    <p>Photography</p>
+  </div>
+  <div class="card web">
+    <h3>Landing Page</h3>
+    <p>Web Design</p>
+  </div>
+  <div class="card photo">
+    <h3>Street Portraits</h3>
+    <p>Photography</p>
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <div class="lightbox-content" id="lightbox-content">Preview</div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
